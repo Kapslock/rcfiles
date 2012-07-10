@@ -104,3 +104,5 @@ fi
 
 alias gvim="gvim &> /dev/null"
 alias server="python manage.py runserver"
+
+export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
